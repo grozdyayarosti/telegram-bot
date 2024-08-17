@@ -1,4 +1,6 @@
+import os
+
 # Токен бота
-TOKEN = '6271004395:AAHemE3e3cJ9WxKkGQRhIECcUbDSpLHZXHg'
+TOKEN = os.environ.get("BOT_TOKEN")
 # ID диалога с админом
-AdminChatID = '489792927'
+AdminChatID = os.environ.get("ADMIN_CHAT_ID")
